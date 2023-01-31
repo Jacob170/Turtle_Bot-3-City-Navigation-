@@ -1,0 +1,7 @@
+<launch>
+
+  <include file="$(find rosject_part1_pkg)/launch/actions.launch"/>
+  <node name="findwall_service_server_node" pkg="rosject_part2_pkg" type="findwall_service_server.py" output="screen"/>
+  <node name="laser_subscriber_node" pkg="rosject_part1_pkg" type="laser_topic_subscriber_pid.py" output="screen"/>
+  
+</launch>

@@ -1,0 +1,4 @@
+<launch>
+  <node name="findwall_service_server_node" pkg="rosject_part2_pkg" type="findwall_service_server.py" output="screen" />
+  
+</launch>

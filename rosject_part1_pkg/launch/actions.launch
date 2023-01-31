@@ -1,0 +1,7 @@
+<launch>
+
+  
+  <node name="record_odom" pkg="rosject_part1_pkg" type="action_server.py" output="screen"/>
+  <node name="action_client_node" pkg="rosject_part1_pkg" type="action_client.py" output="screen"/>
+  
+</launch>

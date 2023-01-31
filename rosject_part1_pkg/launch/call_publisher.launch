@@ -1,0 +1,7 @@
+
+
+<launch>
+
+  <node name="laser_subscriber_node" pkg="rosject_part1_pkg" type="laser_topic_subscriber.py" />
+  
+</launch>
